@@ -17,15 +17,15 @@
 .card-wrapper {
     flex-direction: column;
     background-color: #fff;
-    border-radius: 30px;
-    padding-bottom: 25px;
+    margin: 15px 0;
+    padding: 10px 0;
+    border-radius: 15px;
 }
 
 .qr-code-image {
     max-height: 100%;
     max-width: 100%;
-    padding: 30px 20px;
-    border-radius: 50px;
+    border-radius: 15px;
 }
 
 .tag-line-wrapper {
@@ -40,10 +40,16 @@
     margin: 0;
 }
 
+.tag-line-wrapper div{
+    margin-top: 20px;
+}
+
+
 .para-1{
     font-weight: 700;
 }
 
 .para-2{
     font-weight: 400;
+    color: grey;
 }
